@@ -16,7 +16,7 @@ The bundle URL resolves `jss install --bundle <name>` → `https://raw.githubuse
 | **`all`** | chrome, vellum, win98, pdf, hub, alarm, playlist | Everything in solid-apps (except pilot, which jspod bundles by default) |
 | **`media`** | playlist, pdf | Media stack — audio + PDF |
 | **`productivity`** | vellum, hub, win98 | Docs + workspace + retro shell |
-| **`agentic`** | taskify, vellum, forum, chrome | Run agents on your pod — dashboard, SKILL.md editor, record-of-work, windowing. Pairs with `jss start --idp --mcp`. |
+| **`agentic`** | charlie, taskify, vellum, forum, chrome | Run agents on your pod — chat UI, dashboard, SKILL.md editor, record-of-work, windowing. Pairs with `jss start --idp --mcp`. |
 
 ## Bundle format
 

@@ -3,8 +3,9 @@
   "@id": "#bundle",
   "@type": "schema:ItemList",
   "schema:name": "Agentic",
-  "schema:description": "Run agents on your pod: a dashboard to orchestrate them, an editor for their SKILL.md brains, a forum for their record-of-work, a window manager to organise multi-agent operations. Pairs naturally with `jss start --idp --mcp` (and `--mongo` for indexing at scale).",
+  "schema:description": "Run agents on your pod: a chat UI to talk to them, a dashboard to orchestrate them, an editor for their SKILL.md brains, a forum for their record-of-work, a window manager to organise multi-agent operations. Pairs naturally with `jss start --idp --mcp` (and `--mongo` for indexing at scale).",
   "schema:itemListElement": [
+    { "app:spec": "charlie",                             "app:label": "Charlie", "app:description": "Pod-resident chat bot — SKILL.md as brain, MCP as tools, BYO LLM key" },
     { "app:spec": "taskify/taskify.github.io=taskify", "app:label": "Taskify", "app:description": "Agent orchestration dashboard — tasks, projects, agent management, activity monitoring" },
     { "app:spec": "vellum",                              "app:label": "Vellum",  "app:description": "Markdown editor — for writing each agent's SKILL.md" },
     { "app:spec": "forum",                               "app:label": "Forum",   "app:description": "Discord-style forum — agent-mediated discussion and record of work" },
