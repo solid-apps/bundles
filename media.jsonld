@@ -1,0 +1,11 @@
+{
+  "@context": { "schema": "https://schema.org/", "app": "urn:jss:app:" },
+  "@id": "#bundle",
+  "@type": "schema:ItemList",
+  "schema:name": "Media",
+  "schema:description": "Audio + PDF apps. Playlist for YouTube playlists, PDF for documents.",
+  "schema:itemListElement": [
+    { "app:spec": "playlist", "app:label": "Playlist", "app:description": "YouTube playlist player, saved to your pod" },
+    { "app:spec": "pdf",      "app:label": "PDF",      "app:description": "PDF reader with remote control + per-PDF resume" }
+  ]
+}
