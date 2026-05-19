@@ -12,11 +12,11 @@ The bundle URL resolves `jss install --bundle <name>` → `https://raw.githubuse
 
 | Name | Apps | Use |
 |---|---|---|
-| **`starter`** | explorer, chrome, vellum, pdf, alarm, chat | Minimal pleasant first-run |
-| **`all`** | explorer, chrome, vellum, chat, win98, pdf, hub, alarm, playlist | Everything in solid-apps (except pilot, which jspod bundles by default) |
+| **`starter`** | explorer, chrome, vellum, pdf, alarm, chat, plaza | Minimal pleasant first-run |
+| **`all`** | explorer, chrome, vellum, chat, plaza, win98, pdf, hub, alarm, playlist | Everything in solid-apps (except pilot, which jspod bundles by default) |
 | **`media`** | explorer, playlist, pdf | File browser + media stack — audio + PDF |
-| **`productivity`** | explorer, vellum, hub, win98, chat, mindstr, transcribe | File browser + docs + workspace + retro shell + team chat + mind mapping + speech-to-text |
-| **`agentic`** | charlie, chat, taskify, vellum, forum, explorer, chrome | Run agents on your pod — chat UI (bot + user-to-user), dashboard, SKILL.md editor, record-of-work, file browser, windowing. Pairs with `jss start --idp --mcp`. |
+| **`productivity`** | explorer, vellum, hub, win98, chat, plaza, mindstr, transcribe | File browser + docs + workspace + retro shell + team chat + group chat + mind mapping + speech-to-text |
+| **`agentic`** | charlie, chat, plaza, taskify, vellum, forum, explorer, chrome | Run agents on your pod — DM + group chat, dashboard, SKILL.md editor, record-of-work, file browser, windowing. Pairs with `jss start --idp --mcp`. |
 
 ## Bundle format
 

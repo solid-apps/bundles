@@ -9,6 +9,7 @@
     { "app:spec": "chrome",              "app:label": "Chrome",   "app:description": "Window manager and app shelf" },
     { "app:spec": "vellum",              "app:label": "Vellum",   "app:description": "Markdown editor that saves to your pod" },
     { "app:spec": "solid-chat/app=chat", "app:label": "Chat",     "app:description": "Direct messaging with other Solid pods — Nostr-encrypted DMs, live delivery" },
+    { "app:spec": "plaza",               "app:label": "Plaza",    "app:description": "Group chat on the open web — each pod hosts its own town square" },
     { "app:spec": "win98",               "app:label": "Win98",    "app:description": "Retro-shell desktop, sister to Chrome" },
     { "app:spec": "pdf",                 "app:label": "PDF",      "app:description": "PDF reader with remote control + per-PDF resume" },
     { "app:spec": "hub",                 "app:label": "Hub",      "app:description": "Multi-app Solid workspace" },
