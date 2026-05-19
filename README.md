@@ -13,7 +13,8 @@ The bundle URL resolves `jss install --bundle <name>` → `https://raw.githubuse
 | Name | Apps | Use |
 |---|---|---|
 | **`starter`** | explorer, chrome, vellum, pdf, alarm, chat, plaza | Minimal pleasant first-run |
-| **`all`** | explorer, chrome, vellum, chat, plaza, win98, pdf, hub, alarm, playlist | Everything in solid-apps (except pilot, which jspod bundles by default) |
+| **`jspod`** | explorer, vellum, chat, plaza, timeline, charlie, chrome | The canonical jspod set — what jspod recommends every Solid pod should have on top of pilot |
+| **`all`** | explorer, chrome, vellum, chat, plaza, timeline, win98, pdf, hub, alarm, playlist | Everything in solid-apps (except pilot, which jspod bundles by default) |
 | **`media`** | explorer, playlist, pdf | File browser + media stack — audio + PDF |
 | **`productivity`** | explorer, vellum, hub, win98, chat, plaza, mindstr, transcribe | File browser + docs + workspace + retro shell + team chat + group chat + mind mapping + speech-to-text |
 | **`agentic`** | charlie, chat, plaza, taskify, vellum, forum, explorer, chrome | Run agents on your pod — DM + group chat, dashboard, SKILL.md editor, record-of-work, file browser, windowing. Pairs with `jss start --idp --mcp`. |
