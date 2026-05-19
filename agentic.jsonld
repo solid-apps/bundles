@@ -9,7 +9,8 @@
     { "app:spec": "solid-chat/app=chat",                 "app:label": "Chat",    "app:description": "User-to-user direct messaging — bots can be counterparties via did:nostr" },
     { "app:spec": "taskify/taskify.github.io=taskify", "app:label": "Taskify", "app:description": "Agent orchestration dashboard — tasks, projects, agent management, activity monitoring" },
     { "app:spec": "vellum",                              "app:label": "Vellum",  "app:description": "Markdown editor — for writing each agent's SKILL.md" },
-    { "app:spec": "forum",                               "app:label": "Forum",   "app:description": "Discord-style forum — agent-mediated discussion and record of work" },
-    { "app:spec": "chrome",                              "app:label": "Chrome",  "app:description": "Window manager and app shelf — one window per agent's view" }
+    { "app:spec": "forum",                               "app:label": "Forum",    "app:description": "Discord-style forum — agent-mediated discussion and record of work" },
+    { "app:spec": "explorer",                            "app:label": "Explorer", "app:description": "File explorer — see what your agents are reading and writing on your pod" },
+    { "app:spec": "chrome",                              "app:label": "Chrome",   "app:description": "Window manager and app shelf — one window per agent's view" }
   ]
 }

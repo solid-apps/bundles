@@ -3,8 +3,9 @@
   "@id": "#bundle",
   "@type": "schema:ItemList",
   "schema:name": "Productivity",
-  "schema:description": "Document editing + workspace + retro shell + team chat + mind mapping + speech-to-text.",
+  "schema:description": "File browser + document editing + workspace + retro shell + team chat + mind mapping + speech-to-text.",
   "schema:itemListElement": [
+    { "app:spec": "explorer",                               "app:label": "Explorer",   "app:description": "File explorer — browse / preview / delete with keyboard nav and trash-undo" },
     { "app:spec": "vellum",                                 "app:label": "Vellum",     "app:description": "Markdown editor that saves to your pod" },
     { "app:spec": "hub",                                    "app:label": "Hub",        "app:description": "Multi-app Solid workspace" },
     { "app:spec": "win98",                                  "app:label": "Win98",      "app:description": "Retro-shell desktop with file manager" },

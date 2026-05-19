@@ -3,8 +3,9 @@
   "@id": "#bundle",
   "@type": "schema:ItemList",
   "schema:name": "Media",
-  "schema:description": "Audio + PDF apps. Playlist for YouTube playlists, PDF for documents.",
+  "schema:description": "File browser + audio + PDF. Explorer to find files, playlist for YouTube playlists, PDF for documents.",
   "schema:itemListElement": [
+    { "app:spec": "explorer", "app:label": "Explorer", "app:description": "File explorer — browse / preview audio + PDF inline" },
     { "app:spec": "playlist", "app:label": "Playlist", "app:description": "YouTube playlist player, saved to your pod" },
     { "app:spec": "pdf",      "app:label": "PDF",      "app:description": "PDF reader with remote control + per-PDF resume" }
   ]
