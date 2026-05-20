@@ -1,0 +1,17 @@
+{
+  "@context": { "schema": "https://schema.org/", "app": "urn:jss:app:" },
+  "@id": "#bundle",
+  "@type": "schema:ItemList",
+  "schema:name": "Teams",
+  "schema:description": "Run a team on your own pods — group chat, direct messaging, shared docs, team blog, task tracking, file browser, plus a workspace and window manager to hold it all. Slack-shaped plaza for the day-to-day; everything else lives where your team's data already is: on the pods.",
+  "schema:itemListElement": [
+    { "app:spec": "plaza",               "app:label": "Plaza",    "app:description": "Group chat on the open web — the team's town square. Slack-shaped UI, Solid-native data. Cross-pod by default once you open chat to authenticated visitors." },
+    { "app:spec": "solid-chat/app=chat", "app:label": "Chat",     "app:description": "Direct messaging across Solid pods — Nostr-encrypted DMs, live delivery, no central server" },
+    { "app:spec": "vellum",              "app:label": "Vellum",   "app:description": "Markdown editor that saves to your pod — shared specs, design docs, meeting notes" },
+    { "app:spec": "plume",               "app:label": "Plume",    "app:description": "Pod-native blog — team announcements, weekly updates, decision logs. Each post is a JSON-LD resource any pod-aware app can read." },
+    { "app:spec": "taskify",             "app:label": "Taskify",  "app:description": "Task tracking + dashboard on your pod — record of work, who's doing what, what's done" },
+    { "app:spec": "explorer",            "app:label": "Explorer", "app:description": "File explorer with per-row ACL chips — see and share what's on the pod, with keyboard nav and trash-undo" },
+    { "app:spec": "hub",                 "app:label": "Hub",      "app:description": "Multi-app Solid workspace — one shell that opens any pod resource in the right app" },
+    { "app:spec": "chrome",              "app:label": "Chrome",   "app:description": "Window manager and app shelf — for teammates who want a desktop-style launcher across all of the above" }
+  ]
+}
