@@ -8,6 +8,7 @@
     { "app:spec": "explorer",            "app:label": "Explorer", "app:description": "File explorer — browse / preview / delete with keyboard nav and trash-undo" },
     { "app:spec": "chrome",              "app:label": "Chrome",   "app:description": "Window manager and app shelf" },
     { "app:spec": "vellum",              "app:label": "Vellum",   "app:description": "Markdown editor that saves to your pod" },
+    { "app:spec": "plume",               "app:label": "Plume",    "app:description": "Personal blog on your pod — markdown posts as JSON-LD, with comments, tags, cover images, live preview, and an Atom feed" },
     { "app:spec": "solid-chat/app=chat", "app:label": "Chat",     "app:description": "Direct messaging with other Solid pods — Nostr-encrypted DMs, live delivery" },
     { "app:spec": "plaza",               "app:label": "Plaza",    "app:description": "Group chat on the open web — each pod hosts its own town square" },
     { "app:spec": "timeline",            "app:label": "Timeline", "app:description": "Decentralized Facebook-style social feed — your wall on your pod" },

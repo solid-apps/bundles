@@ -3,11 +3,12 @@
   "@id": "#bundle",
   "@type": "schema:ItemList",
   "schema:name": "Starter",
-  "schema:description": "Minimal pleasant first-run set: a file explorer, a window manager, a markdown editor, a PDF reader, an alarm clock, direct messaging, group chat.",
+  "schema:description": "Minimal pleasant first-run set: a file explorer, a window manager, a markdown editor, a blog, a PDF reader, an alarm clock, direct messaging, group chat.",
   "schema:itemListElement": [
     { "app:spec": "explorer",            "app:label": "Explorer", "app:description": "File explorer — browse / preview / delete with keyboard nav and trash-undo" },
     { "app:spec": "chrome",              "app:label": "Chrome",   "app:description": "Window manager and app shelf" },
     { "app:spec": "vellum",              "app:label": "Vellum",   "app:description": "Markdown editor that saves to your pod" },
+    { "app:spec": "plume",               "app:label": "Plume",    "app:description": "Pod-native blog — share what you've been writing, JSON-LD posts with comments and an Atom feed" },
     { "app:spec": "pdf",                 "app:label": "PDF",      "app:description": "PDF reader with remote control + per-PDF resume" },
     { "app:spec": "alarm",               "app:label": "Alarm",    "app:description": "Alarm clock with pod-backed multi-device sync" },
     { "app:spec": "solid-chat/app=chat", "app:label": "Chat",     "app:description": "Direct messaging with other Solid pods — Nostr-encrypted DMs, live delivery" },
