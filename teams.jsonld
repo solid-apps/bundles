@@ -9,7 +9,7 @@
     { "app:spec": "solid-chat/app=chat", "app:label": "Chat",     "app:description": "Direct messaging across Solid pods — Nostr-encrypted DMs, live delivery, no central server" },
     { "app:spec": "vellum",              "app:label": "Vellum",   "app:description": "Markdown editor that saves to your pod — shared specs, design docs, meeting notes" },
     { "app:spec": "plume",               "app:label": "Plume",    "app:description": "Pod-native blog — team announcements, weekly updates, decision logs. Each post is a JSON-LD resource any pod-aware app can read." },
-    { "app:spec": "taskify",             "app:label": "Taskify",  "app:description": "Task tracking + dashboard on your pod — record of work, who's doing what, what's done" },
+    { "app:spec": "taskify/taskify.github.io=taskify", "app:label": "Taskify", "app:description": "Task tracking + dashboard on your pod — record of work, who's doing what, what's done" },
     { "app:spec": "explorer",            "app:label": "Explorer", "app:description": "File explorer with per-row ACL chips — see and share what's on the pod, with keyboard nav and trash-undo" },
     { "app:spec": "hub",                 "app:label": "Hub",      "app:description": "Multi-app Solid workspace — one shell that opens any pod resource in the right app" },
     { "app:spec": "chrome",              "app:label": "Chrome",   "app:description": "Window manager and app shelf — for teammates who want a desktop-style launcher across all of the above" }
