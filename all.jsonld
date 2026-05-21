@@ -6,6 +6,7 @@
   "schema:description": "Every standalone Solid app in the solid-apps org. (Pilot is already bundled by jspod, so it's not listed here.)",
   "schema:itemListElement": [
     { "app:spec": "home",                "app:label": "Home",     "app:description": "Launcher for everything else on your pod — macOS-style dock of installed apps with a clock and search" },
+    { "app:spec": "store",               "app:label": "Store",    "app:description": "App store — browse every curated bundle, see what's installed, copy the install command for what's not" },
     { "app:spec": "explorer",            "app:label": "Explorer", "app:description": "File explorer — browse / preview / delete with keyboard nav and trash-undo" },
     { "app:spec": "chrome",              "app:label": "Chrome",   "app:description": "Window manager and app shelf" },
     { "app:spec": "vellum",              "app:label": "Vellum",   "app:description": "Markdown editor that saves to your pod" },

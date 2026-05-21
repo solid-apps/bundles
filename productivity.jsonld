@@ -6,6 +6,7 @@
   "schema:description": "File browser + document editing + blog + workspace + retro shell + team chat + group chat + mind mapping + speech-to-text.",
   "schema:itemListElement": [
     { "app:spec": "home",                                   "app:label": "Home",       "app:description": "Launcher for everything else on your pod — macOS-style dock of installed apps with a clock and search" },
+    { "app:spec": "store",                                  "app:label": "Store",      "app:description": "App store — browse every curated bundle, see what's installed, copy the install command for what's not" },
     { "app:spec": "explorer",                               "app:label": "Explorer",   "app:description": "File explorer — browse / preview / delete with keyboard nav and trash-undo" },
     { "app:spec": "vellum",                                 "app:label": "Vellum",     "app:description": "Markdown editor that saves to your pod" },
     { "app:spec": "plume",                                  "app:label": "Plume",      "app:description": "Pod-native blog — turn pod-side markdown into a published post with comments, tags, and an Atom feed" },

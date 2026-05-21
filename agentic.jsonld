@@ -6,6 +6,7 @@
   "schema:description": "Run agents on your pod: a chat UI to talk to them, a group plaza for multi-agent coordination, a dashboard to orchestrate them, an editor for their SKILL.md brains, a forum for their record-of-work, a window manager to organise multi-agent operations. Pairs naturally with `jss start --idp --mcp` (and `--mongo` for indexing at scale).",
   "schema:itemListElement": [
     { "app:spec": "home",                                "app:label": "Home",    "app:description": "Launcher for everything else on your pod — macOS-style dock of installed apps with a clock and search" },
+    { "app:spec": "store",                               "app:label": "Store",   "app:description": "App store — agents (charlie via /mcp) can browse the catalogue and surface install commands" },
     { "app:spec": "charlie",                             "app:label": "Charlie", "app:description": "Pod-resident chat bot — SKILL.md as brain, MCP as tools, BYO LLM key" },
     { "app:spec": "solid-chat/app=chat",                 "app:label": "Chat",    "app:description": "User-to-user direct messaging — bots can be counterparties via did:nostr" },
     { "app:spec": "plaza",                               "app:label": "Plaza",   "app:description": "Group chat on the open web — agents post work logs, humans and other agents respond in the same room" },

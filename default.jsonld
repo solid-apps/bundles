@@ -6,6 +6,7 @@
   "schema:description": "What auto-installs on the first run of jspod. Currently identical to the jspod bundle; the two are kept separate so default can drift (e.g. smaller for faster first-run latency) without changing what jspod recommends to operators.",
   "schema:itemListElement": [
     { "app:spec": "home",                "app:label": "Home",     "app:description": "Launcher for everything else on your pod — macOS-style dock of installed apps with a clock and search" },
+    { "app:spec": "store",               "app:label": "Store",    "app:description": "App store — browse every curated bundle, see what's installed, copy the install command for what's not" },
     { "app:spec": "explorer",            "app:label": "Explorer", "app:description": "File explorer — see what your pod actually holds, browse / preview / delete with keyboard nav and per-row ACL chips" },
     { "app:spec": "JavaScriptSolidServer/git", "app:label": "Git",  "app:description": "Web-based GitHub-style git browser — view any git repo on a Solid pod (commits, files, diffs) in the browser" },
     { "app:spec": "vellum",              "app:label": "Vellum",   "app:description": "Markdown editor that saves to your pod — your first creative surface" },
