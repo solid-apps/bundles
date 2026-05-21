@@ -7,6 +7,7 @@
   "schema:itemListElement": [
     { "app:spec": "home",                "app:label": "Home",     "app:description": "Launcher for everything else on your pod — macOS-style dock of installed apps with a clock and search" },
     { "app:spec": "explorer",            "app:label": "Explorer", "app:description": "File explorer — see what your pod actually holds, browse / preview / delete with keyboard nav and per-row ACL chips" },
+    { "app:spec": "JavaScriptSolidServer/git", "app:label": "Git",  "app:description": "Web-based GitHub-style git browser — view any git repo on a Solid pod (commits, files, diffs) in the browser" },
     { "app:spec": "vellum",              "app:label": "Vellum",   "app:description": "Markdown editor that saves to your pod — your first creative surface" },
     { "app:spec": "plume",               "app:label": "Plume",    "app:description": "Pod-native blog — publish markdown posts as JSON-LD, with comments, tags, cover images, and an Atom feed any reader can subscribe to" },
     { "app:spec": "solid-chat/app=chat", "app:label": "Chat",     "app:description": "Direct messaging with other Solid pods — Nostr-encrypted DMs, live delivery" },
