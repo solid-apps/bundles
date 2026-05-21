@@ -3,8 +3,9 @@
   "@id": "#bundle",
   "@type": "schema:ItemList",
   "schema:name": "jspod",
-  "schema:description": "The canonical jspod set — what jspod recommends every Solid pod should have on top of its default install (pilot). File management, writing, blogging, direct messaging, group chat, your wall, an agent, and a window manager to hold it all.",
+  "schema:description": "The canonical jspod set — what jspod recommends every Solid pod should have on top of its default install (pilot). A launcher, file management, writing, blogging, direct messaging, group chat, your wall, an agent, and a window manager to hold it all.",
   "schema:itemListElement": [
+    { "app:spec": "home",                "app:label": "Home",     "app:description": "Launcher for everything else on your pod — macOS-style dock of installed apps with a clock and search" },
     { "app:spec": "explorer",            "app:label": "Explorer", "app:description": "File explorer — see what your pod actually holds, browse / preview / delete with keyboard nav and per-row ACL chips" },
     { "app:spec": "vellum",              "app:label": "Vellum",   "app:description": "Markdown editor that saves to your pod — your first creative surface" },
     { "app:spec": "plume",               "app:label": "Plume",    "app:description": "Pod-native blog — publish markdown posts as JSON-LD, with comments, tags, cover images, and an Atom feed any reader can subscribe to" },
