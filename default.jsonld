@@ -1,0 +1,18 @@
+{
+  "@context": { "schema": "https://schema.org/", "app": "urn:jss:app:" },
+  "@id": "#bundle",
+  "@type": "schema:ItemList",
+  "schema:name": "Default",
+  "schema:description": "What auto-installs on the first run of jspod. Currently identical to the jspod bundle; the two are kept separate so default can drift (e.g. smaller for faster first-run latency) without changing what jspod recommends to operators.",
+  "schema:itemListElement": [
+    { "app:spec": "home",                "app:label": "Home",     "app:description": "Launcher for everything else on your pod — macOS-style dock of installed apps with a clock and search" },
+    { "app:spec": "explorer",            "app:label": "Explorer", "app:description": "File explorer — see what your pod actually holds, browse / preview / delete with keyboard nav and per-row ACL chips" },
+    { "app:spec": "vellum",              "app:label": "Vellum",   "app:description": "Markdown editor that saves to your pod — your first creative surface" },
+    { "app:spec": "plume",               "app:label": "Plume",    "app:description": "Pod-native blog — publish markdown posts as JSON-LD, with comments, tags, cover images, and an Atom feed any reader can subscribe to" },
+    { "app:spec": "solid-chat/app=chat", "app:label": "Chat",     "app:description": "Direct messaging with other Solid pods — Nostr-encrypted DMs, live delivery" },
+    { "app:spec": "plaza",               "app:label": "Plaza",    "app:description": "Group chat on the open web — each pod hosts its own town square" },
+    { "app:spec": "timeline",            "app:label": "Timeline", "app:description": "Your wall on the open web — decentralized Facebook-style social feed" },
+    { "app:spec": "charlie",             "app:label": "Charlie",  "app:description": "Pod-resident chat bot — SKILL.md as brain, MCP as tools, BYO LLM key" },
+    { "app:spec": "chrome",              "app:label": "Chrome",   "app:description": "Window manager and app shelf — one place to launch everything else" }
+  ]
+}
