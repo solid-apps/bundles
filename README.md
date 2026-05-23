@@ -12,7 +12,7 @@ The bundle URL resolves `jss install --bundle <name>` → `https://raw.githubuse
 
 | Name | Apps | Use |
 |---|---|---|
-| **`default`** | home, store, explorer, git, vellum, plume, chat, plaza, timeline, charlie, chrome | Auto-installed on first run of `jspod`. Initially identical to `jspod`; kept separate so it can drift (e.g. shrink for faster first-run latency) without changing what `jspod` recommends |
+| **`default`** | home, profile, store, explorer, git, vellum, plume, chat, plaza, timeline, charlie, chrome | Auto-installed on first run of `jspod`. Initially identical to `jspod`; kept separate so it can drift (e.g. shrink for faster first-run latency) without changing what `jspod` recommends |
 | **`starter`** | home, store, explorer, chrome, vellum, plume, pdf, alarm, chat, plaza | Minimal pleasant first-run |
 | **`jspod`** | home, store, explorer, git, vellum, plume, chat, plaza, timeline, charlie, chrome | The canonical jspod set — what jspod recommends every Solid pod should have on top of pilot |
 | **`all`** | home, store, explorer, chrome, vellum, plume, chat, plaza, timeline, win98, pdf, hub, alarm, playlist | Everything in solid-apps (except pilot, which jspod bundles by default) |
