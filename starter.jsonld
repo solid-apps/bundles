@@ -6,6 +6,7 @@
   "schema:description": "Minimal pleasant first-run set: a launcher, a file explorer, a window manager, a markdown editor, a blog, a PDF reader, an alarm clock, direct messaging, group chat.",
   "schema:itemListElement": [
     { "app:spec": "home",                "app:label": "Home",     "app:description": "Launcher for everything else on your pod — macOS-style dock of installed apps with a clock and search" },
+    { "app:spec": "profile",             "app:label": "Profile",  "app:description": "Your profile, on your pod — human-friendly page + agent-friendly SOUL.md, one source of truth (your WebID)" },
     { "app:spec": "store",               "app:label": "Store",    "app:description": "App store — browse every curated bundle, see what's installed, copy the install command for what's not" },
     { "app:spec": "explorer",            "app:label": "Explorer", "app:description": "File explorer — browse / preview / delete with keyboard nav and trash-undo" },
     { "app:spec": "chrome",              "app:label": "Chrome",   "app:description": "Window manager and app shelf" },

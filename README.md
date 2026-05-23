@@ -13,13 +13,13 @@ The bundle URL resolves `jss install --bundle <name>` → `https://raw.githubuse
 | Name | Apps | Use |
 |---|---|---|
 | **`default`** | home, profile, store, explorer, git, vellum, plume, chat, plaza, timeline, charlie, chrome | Auto-installed on first run of `jspod`. Initially identical to `jspod`; kept separate so it can drift (e.g. shrink for faster first-run latency) without changing what `jspod` recommends |
-| **`starter`** | home, store, explorer, chrome, vellum, plume, pdf, alarm, chat, plaza | Minimal pleasant first-run |
-| **`jspod`** | home, store, explorer, git, vellum, plume, chat, plaza, timeline, charlie, chrome | The canonical jspod set — what jspod recommends every Solid pod should have on top of pilot |
-| **`all`** | home, store, explorer, chrome, vellum, plume, chat, plaza, timeline, win98, pdf, hub, alarm, playlist | Everything in solid-apps (except pilot, which jspod bundles by default) |
+| **`starter`** | home, profile, store, explorer, chrome, vellum, plume, pdf, alarm, chat, plaza | Minimal pleasant first-run |
+| **`jspod`** | home, profile, store, explorer, git, vellum, plume, chat, plaza, timeline, charlie, chrome | The canonical jspod set — what jspod recommends every Solid pod should have on top of pilot |
+| **`all`** | home, profile, store, explorer, chrome, vellum, plume, chat, plaza, timeline, win98, pdf, hub, alarm, playlist | Everything in solid-apps (except pilot, which jspod bundles by default) |
 | **`media`** | explorer, playlist, pdf | File browser + media stack — audio + PDF |
 | **`productivity`** | home, store, explorer, vellum, plume, hub, win98, chat, plaza, mindstr, transcribe | File browser + docs + blog + workspace + retro shell + team chat + group chat + mind mapping + speech-to-text |
 | **`agentic`** | home, store, charlie, chat, plaza, taskify, vellum, forum, explorer, chrome | Run agents on your pod — DM + group chat, dashboard, SKILL.md editor, record-of-work, file browser, windowing. Pairs with `jss start --idp --mcp`. |
-| **`teams`** | home, store, plaza, chat, vellum, plume, taskify, explorer, hub, chrome | Run a team on your own pods — Slack-shaped group chat, DMs, shared docs, team blog, task tracking, files. Federated by default, no central platform. |
+| **`teams`** | home, profile, store, plaza, chat, vellum, plume, taskify, explorer, hub, chrome | Run a team on your own pods — Slack-shaped group chat, DMs, shared docs, team blog, task tracking, files. Federated by default, no central platform. |
 
 ## Bundle format
 

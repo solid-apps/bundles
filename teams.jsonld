@@ -6,6 +6,7 @@
   "schema:description": "Run a team on your own pods — group chat, direct messaging, shared docs, team blog, task tracking, file browser, plus a workspace and window manager to hold it all. Slack-shaped plaza for the day-to-day; everything else lives where your team's data already is: on the pods.",
   "schema:itemListElement": [
     { "app:spec": "home",                "app:label": "Home",     "app:description": "Launcher for the team's pod — macOS-style dock of every installed app, clock, search" },
+    { "app:spec": "profile",             "app:label": "Profile",  "app:description": "Each teammate's profile, on their pod — human-friendly page + agent-friendly SOUL.md so coworkers (and their agents) know how to talk to them" },
     { "app:spec": "store",               "app:label": "Store",    "app:description": "App store — add or remove apps from the team's pod, see what's available across every bundle" },
     { "app:spec": "plaza",               "app:label": "Plaza",    "app:description": "Group chat on the open web — the team's town square. Slack-shaped UI, Solid-native data. Cross-pod by default once you open chat to authenticated visitors." },
     { "app:spec": "solid-chat/app=chat", "app:label": "Chat",     "app:description": "Direct messaging across Solid pods — Nostr-encrypted DMs, live delivery, no central server" },
