@@ -1,31 +1,127 @@
 {
-  "@context": { "schema": "https://schema.org/", "app": "urn:jss:app:" },
+  "@context": {
+    "schema": "https://schema.org/",
+    "app": "urn:jss:app:"
+  },
   "@id": "#bundle",
   "@type": "schema:ItemList",
   "schema:name": "All solid-apps",
   "schema:description": "Every standalone Solid app in the solid-apps org. (Pilot is already bundled by jspod, so it's not listed here.)",
   "schema:itemListElement": [
-    { "app:spec": "home",                "app:label": "Home",     "app:description": "Launcher for everything else on your pod — macOS-style dock of installed apps with a clock and search" },
-    { "app:spec": "profile",             "app:label": "Profile",  "app:description": "Your profile, on your pod — human-friendly page + agent-friendly SOUL.md, one source of truth (your WebID)" },
-    { "app:spec": "store",               "app:label": "Store",    "app:description": "App store — browse every curated bundle, see what's installed, copy the install command for what's not" },
-    { "app:spec": "explorer",            "app:label": "Explorer", "app:description": "File explorer — browse / preview / delete with keyboard nav and trash-undo" },
-    { "app:spec": "chrome",              "app:label": "Chrome",   "app:description": "Window manager and app shelf" },
-    { "app:spec": "vellum",              "app:label": "Vellum",   "app:description": "Markdown editor that saves to your pod" },
-    { "app:spec": "plume",               "app:label": "Plume",    "app:description": "Personal blog on your pod — markdown posts as JSON-LD, with comments, tags, cover images, live preview, and an Atom feed" },
-    { "app:spec": "solid-chat/app=chat", "app:label": "Chat",     "app:description": "Direct messaging with other Solid pods — Nostr-encrypted DMs, live delivery" },
-    { "app:spec": "plaza",               "app:label": "Plaza",    "app:description": "Group chat on the open web — each pod hosts its own town square" },
-    { "app:spec": "timeline",            "app:label": "Timeline", "app:description": "Decentralized Facebook-style social feed — your wall on your pod" },
-    { "app:spec": "win98",               "app:label": "Win98",    "app:description": "Retro-shell desktop, sister to Chrome" },
-    { "app:spec": "pdf",                 "app:label": "PDF",      "app:description": "PDF reader with remote control + per-PDF resume" },
-    { "app:spec": "hub",                 "app:label": "Hub",      "app:description": "Multi-app Solid workspace" },
-    { "app:spec": "alarm",               "app:label": "Alarm",    "app:description": "Alarm clock with pod-backed multi-device sync" },
-    { "app:spec": "playlist",            "app:label": "Playlist", "app:description": "YouTube playlist player, saved to your pod" },
-    { "app:spec": "protect",             "app:label": "Protect",  "app:description": "Personal-safety aid — SOS to your guardians with location, check-in timer, fake call. For women, for anyone. (v1, in-web)" },
-    { "app:spec": "split",               "app:label": "Split",    "app:description": "Embed your pod apps side by side in resizable panes — N-pane, draggable dividers, stacks on mobile" },
-    { "app:spec": "tasks",               "app:label": "Tasks",    "app:description": "Task lists on your pod — add/complete/edit, filter, move tasks between lists. SolidOS wf:Tracker model, interoperates with pilot" },
-    { "app:spec": "calendar",            "app:label": "Calendar", "app:description": "Events on your pod — month grid + agenda, add/edit/delete. iCalendar Vevent model (sibling of tasks' Vtodo)" },
-    { "app:spec": "notes",               "app:label": "Notes",    "app:description": "Markdown notes on your pod — one resource per note, autosaved. schema:TextDocument, interoperates with hub" },
-    { "app:spec": "bookmarks",           "app:label": "Bookmarks","app:description": "Saved links on your pod — paste a URL, open, delete. Standard bookmark: ontology, interoperates with hub" },
-    { "app:spec": "kanban",              "app:label": "Kanban",   "app:description": "Board view of your trackers — drag cards between columns. Same wf:Tracker data as tasks/pilot, different view" }
+    {
+      "app:spec": "home",
+      "app:label": "Home",
+      "app:description": "Launcher for everything else on your pod — macOS-style dock of installed apps with a clock and search"
+    },
+    {
+      "app:spec": "profile",
+      "app:label": "Profile",
+      "app:description": "Your profile, on your pod — human-friendly page + agent-friendly SOUL.md, one source of truth (your WebID)"
+    },
+    {
+      "app:spec": "store",
+      "app:label": "Store",
+      "app:description": "App store — browse every curated bundle, see what's installed, copy the install command for what's not"
+    },
+    {
+      "app:spec": "explorer",
+      "app:label": "Explorer",
+      "app:description": "File explorer — browse / preview / delete with keyboard nav and trash-undo"
+    },
+    {
+      "app:spec": "chrome",
+      "app:label": "Chrome",
+      "app:description": "Window manager and app shelf"
+    },
+    {
+      "app:spec": "vellum",
+      "app:label": "Vellum",
+      "app:description": "Markdown editor that saves to your pod"
+    },
+    {
+      "app:spec": "plume",
+      "app:label": "Plume",
+      "app:description": "Personal blog on your pod — markdown posts as JSON-LD, with comments, tags, cover images, live preview, and an Atom feed"
+    },
+    {
+      "app:spec": "solid-chat/app=chat",
+      "app:label": "Chat",
+      "app:description": "Direct messaging with other Solid pods — Nostr-encrypted DMs, live delivery"
+    },
+    {
+      "app:spec": "plaza",
+      "app:label": "Plaza",
+      "app:description": "Group chat on the open web — each pod hosts its own town square"
+    },
+    {
+      "app:spec": "timeline",
+      "app:label": "Timeline",
+      "app:description": "Decentralized Facebook-style social feed — your wall on your pod"
+    },
+    {
+      "app:spec": "win98",
+      "app:label": "Win98",
+      "app:description": "Retro-shell desktop, sister to Chrome"
+    },
+    {
+      "app:spec": "pdf",
+      "app:label": "PDF",
+      "app:description": "PDF reader with remote control + per-PDF resume"
+    },
+    {
+      "app:spec": "hub",
+      "app:label": "Hub",
+      "app:description": "Multi-app Solid workspace"
+    },
+    {
+      "app:spec": "alarm",
+      "app:label": "Alarm",
+      "app:description": "Alarm clock with pod-backed multi-device sync"
+    },
+    {
+      "app:spec": "playlist",
+      "app:label": "Playlist",
+      "app:description": "YouTube playlist player, saved to your pod"
+    },
+    {
+      "app:spec": "protect",
+      "app:label": "Protect",
+      "app:description": "Personal-safety aid — SOS to your guardians with location, check-in timer, fake call. For women, for anyone. (v1, in-web)"
+    },
+    {
+      "app:spec": "split",
+      "app:label": "Split",
+      "app:description": "Embed your pod apps side by side in resizable panes — N-pane, draggable dividers, stacks on mobile"
+    },
+    {
+      "app:spec": "tasks",
+      "app:label": "Tasks",
+      "app:description": "Task lists on your pod — add/complete/edit, filter, move tasks between lists. SolidOS wf:Tracker model, interoperates with pilot"
+    },
+    {
+      "app:spec": "calendar",
+      "app:label": "Calendar",
+      "app:description": "Events on your pod — month grid + agenda, add/edit/delete. iCalendar Vevent model (sibling of tasks' Vtodo)"
+    },
+    {
+      "app:spec": "notes",
+      "app:label": "Notes",
+      "app:description": "Markdown notes on your pod — one resource per note, autosaved. schema:TextDocument, interoperates with hub"
+    },
+    {
+      "app:spec": "bookmarks",
+      "app:label": "Bookmarks",
+      "app:description": "Saved links on your pod — paste a URL, open, delete. Standard bookmark: ontology, interoperates with hub"
+    },
+    {
+      "app:spec": "kanban",
+      "app:label": "Kanban",
+      "app:description": "Board view of your trackers — drag cards between columns. Same wf:Tracker data as tasks/pilot, different view"
+    },
+    {
+      "app:spec": "weather",
+      "app:label": "Weather",
+      "app:description": "Current conditions + 4-day forecast for your saved places. Open-Meteo (no API key); places saved to your pod"
+    }
   ]
 }
