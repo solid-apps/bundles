@@ -25,6 +25,7 @@
     { "app:spec": "tasks",               "app:label": "Tasks",    "app:description": "Task lists on your pod — add/complete/edit, filter, move tasks between lists. SolidOS wf:Tracker model, interoperates with pilot" },
     { "app:spec": "calendar",            "app:label": "Calendar", "app:description": "Events on your pod — month grid + agenda, add/edit/delete. iCalendar Vevent model (sibling of tasks' Vtodo)" },
     { "app:spec": "notes",               "app:label": "Notes",    "app:description": "Markdown notes on your pod — one resource per note, autosaved. schema:TextDocument, interoperates with hub" },
-    { "app:spec": "bookmarks",           "app:label": "Bookmarks","app:description": "Saved links on your pod — paste a URL, open, delete. Standard bookmark: ontology, interoperates with hub" }
+    { "app:spec": "bookmarks",           "app:label": "Bookmarks","app:description": "Saved links on your pod — paste a URL, open, delete. Standard bookmark: ontology, interoperates with hub" },
+    { "app:spec": "kanban",              "app:label": "Kanban",   "app:description": "Board view of your trackers — drag cards between columns. Same wf:Tracker data as tasks/pilot, different view" }
   ]
 }
