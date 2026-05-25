@@ -20,6 +20,7 @@
     { "app:spec": "hub",                 "app:label": "Hub",      "app:description": "Multi-app Solid workspace" },
     { "app:spec": "alarm",               "app:label": "Alarm",    "app:description": "Alarm clock with pod-backed multi-device sync" },
     { "app:spec": "playlist",            "app:label": "Playlist", "app:description": "YouTube playlist player, saved to your pod" },
-    { "app:spec": "protect",             "app:label": "Protect",  "app:description": "Personal-safety aid — SOS to your guardians with location, check-in timer, fake call. For women, for anyone. (v1, in-web)" }
+    { "app:spec": "protect",             "app:label": "Protect",  "app:description": "Personal-safety aid — SOS to your guardians with location, check-in timer, fake call. For women, for anyone. (v1, in-web)" },
+    { "app:spec": "split",               "app:label": "Split",    "app:description": "Embed your pod apps side by side in resizable panes — N-pane, draggable dividers, stacks on mobile" }
   ]
 }
