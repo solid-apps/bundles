@@ -122,6 +122,11 @@
       "app:spec": "weather",
       "app:label": "Weather",
       "app:description": "Current conditions + 4-day forecast for your saved places. Open-Meteo (no API key); places saved to your pod"
+    },
+    {
+      "app:spec": "maps",
+      "app:label": "Maps",
+      "app:description": "An OpenStreetMap map with your saved pins — search, geolocation, drop pins. Pins stored on your pod"
     }
   ]
 }
