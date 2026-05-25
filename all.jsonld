@@ -127,6 +127,11 @@
       "app:spec": "maps",
       "app:label": "Maps",
       "app:description": "An OpenStreetMap map with your saved pins — search, geolocation, drop pins. Pins stored on your pod"
+    },
+    {
+      "app:spec": "nutrition",
+      "app:label": "Nutrition",
+      "app:description": "Food diary — Open Food Facts search + barcode, calories & macros vs goals. Your diary on your pod, not a silo"
     }
   ]
 }
