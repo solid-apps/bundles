@@ -142,6 +142,11 @@
       "app:spec": "wallet",
       "app:label": "Wallet",
       "app:description": "Your data wallet — IDs, diplomas, licenses, tickets, credentials and keys as cards. Each one private by default; share any card publicly with one tap (real WAC ACLs)"
+    },
+    {
+      "app:spec": "nostr",
+      "app:label": "Nostr",
+      "app:description": "Your Nostr control center — wire your key into your WebID profile (one-click), generate/import keys, find the Nostr-native apps, manage relays"
     }
   ]
 }
