@@ -134,6 +134,11 @@
       "app:description": "Saved links on your pod — paste a URL, open, delete. Standard bookmark: ontology, interoperates with hub"
     },
     {
+      "app:spec": "news",
+      "app:label": "News",
+      "app:description": "RSS/Atom feed reader — subscribe, read a unified list, save articles to bookmarks; subscriptions sync to your pod"
+    },
+    {
       "app:spec": "kanban",
       "app:label": "Kanban",
       "app:description": "Board view of your trackers — drag cards between columns. Same wf:Tracker data as tasks/pilot, different view"
