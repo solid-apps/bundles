@@ -29,6 +29,11 @@
       "app:description": "File explorer — browse / preview / delete with keyboard nav and trash-undo"
     },
     {
+      "app:spec": "search",
+      "app:label": "Search",
+      "app:description": "Basic full-text search across your pod — discovers your data via the TypeIndex and matches your query"
+    },
+    {
       "app:spec": "webacl",
       "app:label": "Web ACL",
       "app:description": "Permissions lens — effective access, the inheritance chain from any resource up to root, and ACL editing"
