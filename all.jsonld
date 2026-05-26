@@ -189,6 +189,11 @@
       "app:description": "Food diary — Open Food Facts search + barcode, calories & macros vs goals. Your diary on your pod, not a silo"
     },
     {
+      "app:spec": "gamestr",
+      "app:label": "Gamestr",
+      "app:description": "Gamified self-assessment / productivity tracker on your pod — tap categories to score, records points per day, levels"
+    },
+    {
       "app:spec": "health",
       "app:label": "Health",
       "app:description": "Private health-metrics log — weight, BP, HR, sleep, water, mood, steps with trends. Your data on your pod, not the Apple/Google cloud"
