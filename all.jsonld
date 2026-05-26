@@ -29,6 +29,11 @@
       "app:description": "File explorer — browse / preview / delete with keyboard nav and trash-undo"
     },
     {
+      "app:spec": "webacl",
+      "app:label": "Web ACL",
+      "app:description": "Permissions lens — effective access, the inheritance chain from any resource up to root, and ACL editing"
+    },
+    {
       "app:spec": "chrome",
       "app:label": "Chrome",
       "app:description": "Window manager and app shelf"
