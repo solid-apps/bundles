@@ -144,6 +144,11 @@
       "app:description": "A linked-data spreadsheet — sums + arithmetic plus =GET(uri,predicate) to pull live values from the data web into cells"
     },
     {
+      "app:spec": "datawiki",
+      "app:label": "DataWiki",
+      "app:description": "A wiki where every page is linked data — prose + dereferenceable fields + [[wiki links]], readable by tabulator"
+    },
+    {
       "app:spec": "kanban",
       "app:label": "Kanban",
       "app:description": "Board view of your trackers — drag cards between columns. Same wf:Tracker data as tasks/pilot, different view"
