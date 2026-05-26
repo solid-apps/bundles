@@ -152,6 +152,11 @@
       "app:spec": "peer",
       "app:label": "Peer",
       "app:description": "Peer-to-peer video calls through your pod — Jitsi-style rooms over WebRTC. Your pod just introduces peers; audio & video flow directly between browsers"
+    },
+    {
+      "app:spec": "tunnel",
+      "app:label": "Tunnel",
+      "app:description": "Make your local pod reachable on the web through a known host — JSS's decentralized ngrok. Register a name, get a public URL that proxies to your pod (outbound WebSocket only)"
     }
   ]
 }
