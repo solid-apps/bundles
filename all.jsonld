@@ -74,6 +74,11 @@
       "app:description": "Decentralized Facebook-style social feed — your wall on your pod"
     },
     {
+      "app:spec": "notifications",
+      "app:label": "Notifications",
+      "app:description": "Desktop alerts for your pod — watches your LDN inbox and shows a notification center"
+    },
+    {
       "app:spec": "win98",
       "app:label": "Win98",
       "app:description": "Retro-shell desktop, sister to Chrome"
