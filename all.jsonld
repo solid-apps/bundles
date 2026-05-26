@@ -34,6 +34,16 @@
       "app:description": "Permissions lens — effective access, the inheritance chain from any resource up to root, and ACL editing"
     },
     {
+      "app:spec": "gallery",
+      "app:label": "Gallery",
+      "app:description": "Photo albums on your pod — schema:ImageGallery via TypeIndex, lightbox, upload, share via webacl"
+    },
+    {
+      "app:spec": "camera",
+      "app:label": "Camera",
+      "app:description": "Capture photos straight to your pod — saved into a gallery album that gallery and hub read"
+    },
+    {
       "app:spec": "chrome",
       "app:label": "Chrome",
       "app:description": "Window manager and app shelf"
