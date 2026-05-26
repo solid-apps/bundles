@@ -109,6 +109,16 @@
       "app:description": "Alarm clock with pod-backed multi-device sync"
     },
     {
+      "app:spec": "music",
+      "app:label": "Music",
+      "app:description": "Play your own music collection from your pod — audio in /public/music/, with a queue and upload"
+    },
+    {
+      "app:spec": "video",
+      "app:label": "Video",
+      "app:description": "Play your own video collection from your pod — video in /public/video/, with a queue and upload"
+    },
+    {
       "app:spec": "playlist",
       "app:label": "Playlist",
       "app:description": "YouTube playlist player, saved to your pod"
