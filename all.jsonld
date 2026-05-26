@@ -147,6 +147,11 @@
       "app:spec": "nostr",
       "app:label": "Nostr",
       "app:description": "Your Nostr control center — wire your key into your WebID profile (one-click), generate/import keys, find the Nostr-native apps, manage relays"
+    },
+    {
+      "app:spec": "peer",
+      "app:label": "Peer",
+      "app:description": "Peer-to-peer video calls through your pod — Jitsi-style rooms over WebRTC. Your pod just introduces peers; audio & video flow directly between browsers"
     }
   ]
 }
