@@ -9,6 +9,11 @@
   "schema:description": "Every standalone Solid app in the solid-apps org. (Pilot is already bundled by jspod, so it's not listed here.)",
   "schema:itemListElement": [
     {
+      "app:spec": "portal",
+      "app:label": "Portal",
+      "app:description": "A curated, categorized link directory (Yahoo/DMOZ style) on your pod — your public start page"
+    },
+    {
       "app:spec": "home",
       "app:label": "Home",
       "app:description": "Launcher for everything else on your pod — macOS-style dock of installed apps with a clock and search"
