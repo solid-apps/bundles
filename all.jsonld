@@ -199,6 +199,11 @@
       "app:description": "Private health-metrics log — weight, BP, HR, sleep, water, mood, steps with trends. Your data on your pod, not the Apple/Google cloud"
     },
     {
+      "app:spec": "vouchers",
+      "app:label": "Vouchers",
+      "app:description": "Organize your Bitcoin vouchers (funded keys as TXO URIs) on your pod — balance + spent status via mempool, sweep; keys stored owner-only in /private/"
+    },
+    {
       "app:spec": "wallet",
       "app:label": "Wallet",
       "app:description": "Your data wallet — IDs, diplomas, licenses, tickets, credentials and keys as cards. Each one private by default; share any card publicly with one tap (real WAC ACLs)"
