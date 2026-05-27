@@ -226,7 +226,7 @@
     {
       "app:spec": "taproot",
       "app:label": "Taproot",
-      "app:description": "Multi-currency taproot wallet keyed by your identity (nostr/Solid) — receive + balance across BTC/LTC/VTC. Experimental"
+      "app:description": "Multi-currency taproot wallet keyed by your identity (nostr/Solid) — receive, balance & send across BTC/LTC/VTC. Experimental"
     },
     {
       "app:spec": "wallet",
