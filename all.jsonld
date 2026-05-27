@@ -159,6 +159,11 @@
       "app:description": "Markdown notes on your pod — one resource per note, autosaved. schema:TextDocument, interoperates with hub"
     },
     {
+      "app:spec": "mark",
+      "app:label": "Mark",
+      "app:description": "Rate any URI (web, localhost, or a pod resource) with stars + a comment. Phase 1 of marking; schema:Review on your pod"
+    },
+    {
       "app:spec": "bookmarks",
       "app:label": "Bookmarks",
       "app:description": "Saved links on your pod — paste a URL, open, delete. Standard bookmark: ontology, interoperates with hub"
