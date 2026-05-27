@@ -124,6 +124,11 @@
       "app:description": "Play your own video collection from your pod — video in /public/video/, with a queue and upload"
     },
     {
+      "app:spec": "screened",
+      "app:label": "Screened",
+      "app:description": "Letterboxd-style log of the films & TV you've watched — rate, date, note; schema:WatchAction on your pod"
+    },
+    {
       "app:spec": "playlist",
       "app:label": "Playlist",
       "app:description": "YouTube playlist player, saved to your pod"
