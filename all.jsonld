@@ -224,6 +224,11 @@
       "app:description": "Organize your Bitcoin vouchers (funded keys as TXO URIs) on your pod — balance + spent status via mempool, sweep; keys stored owner-only in /private/"
     },
     {
+      "app:spec": "taproot",
+      "app:label": "Taproot",
+      "app:description": "Multi-currency taproot wallet keyed by your identity (nostr/Solid) — receive + balance across BTC/LTC/VTC. Experimental"
+    },
+    {
       "app:spec": "wallet",
       "app:label": "Wallet",
       "app:description": "Your data wallet — IDs, diplomas, licenses, tickets, credentials and keys as cards. Each one private by default; share any card publicly with one tap (real WAC ACLs)"
