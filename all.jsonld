@@ -129,6 +129,11 @@
       "app:description": "Letterboxd-style log of the films & TV you've watched — rate, date, note; schema:WatchAction on your pod"
     },
     {
+      "app:spec": "instant",
+      "app:label": "Instant",
+      "app:description": "In-browser WebTorrent client (instant.io-style) — add a magnet/.torrent to stream inline, or seed a file to share. WebRTC, no server"
+    },
+    {
       "app:spec": "playlist",
       "app:label": "Playlist",
       "app:description": "YouTube playlist player, saved to your pod"
