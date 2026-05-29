@@ -224,6 +224,11 @@
       "app:description": "Organize your Bitcoin vouchers (funded keys as TXO URIs) on your pod — balance + spent status via mempool, sweep; keys stored owner-only in /private/"
     },
     {
+      "app:spec": "yap",
+      "app:label": "yap",
+      "app:description": "Minimal chat on your Solid pod — meeting:LongChat rooms stored as JSON-LD; open a room, post, poll. Codename for the chat suite"
+    },
+    {
       "app:spec": "taproot",
       "app:label": "Taproot",
       "app:description": "Multi-currency taproot wallet keyed by your identity (nostr/Solid) — receive, balance & send across BTC/LTC/VTC. Experimental"
