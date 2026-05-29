@@ -94,6 +94,11 @@
       "app:description": "Desktop alerts for your pod — watches your LDN inbox and shows a notification center"
     },
     {
+      "app:spec": "ubuntu",
+      "app:label": "Ubuntu",
+      "app:description": "Your pod as an Ubuntu (GNOME/Yaru) desktop — top bar, left dock, aubergine wallpaper, Adwaita windows. Same engine as chrome/win98, reskinned"
+    },
+    {
       "app:spec": "win98",
       "app:label": "Win98",
       "app:description": "Retro-shell desktop, sister to Chrome"
