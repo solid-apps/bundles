@@ -226,7 +226,7 @@
     {
       "app:spec": "nexus",
       "app:label": "Nexus",
-      "app:description": "A faithful recreation of Tim Berners-Lee's 1990 WorldWideWeb browser (NeXT chrome, real WWW fonts) — browsing your pod, built toward the read-write web"
+      "app:description": "A faithful recreation of Tim Berners-Lee's 1990 WorldWideWeb browser (NeXT chrome, real WWW fonts) — browse AND edit your pod, the read-write web reborn"
     },
     {
       "app:spec": "yap",
