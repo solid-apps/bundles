@@ -224,6 +224,11 @@
       "app:description": "Organize your Bitcoin vouchers (funded keys as TXO URIs) on your pod — balance + spent status via mempool, sweep; keys stored owner-only in /private/"
     },
     {
+      "app:spec": "nexus",
+      "app:label": "Nexus",
+      "app:description": "A faithful recreation of Tim Berners-Lee's 1990 WorldWideWeb browser (NeXT chrome, real WWW fonts) — browsing your pod, built toward the read-write web"
+    },
+    {
       "app:spec": "yap",
       "app:label": "yap",
       "app:description": "Minimal chat — pod rooms (meeting:LongChat as JSON-LD) plus live nostr rooms across your own devices via a relay. Codename for the chat suite"
