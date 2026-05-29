@@ -226,7 +226,7 @@
     {
       "app:spec": "yap",
       "app:label": "yap",
-      "app:description": "Minimal chat on your Solid pod — meeting:LongChat rooms stored as JSON-LD; open a room, post, poll. Codename for the chat suite"
+      "app:description": "Minimal chat — pod rooms (meeting:LongChat as JSON-LD) plus live nostr rooms across your own devices via a relay. Codename for the chat suite"
     },
     {
       "app:spec": "taproot",
