@@ -269,6 +269,11 @@
       "app:description": "Sync a folder of small JSON-LD resources between your pods/devices over nostr relays (LAN or public, did:nostr keys)"
     },
     {
+      "app:spec": "lan",
+      "app:label": "LAN",
+      "app:description": "Your local network at a glance — devices, pods running a Nostr relay, and verified pubkey⇄WebID identities. Reads the podscan directory (/private/net/hosts.jsonld); no LAN access from the browser"
+    },
+    {
       "app:spec": "tunnel",
       "app:label": "Tunnel",
       "app:description": "Make your local pod reachable on the web through a known host — JSS's decentralized ngrok. Register a name, get a public URL that proxies to your pod (outbound WebSocket only)"
