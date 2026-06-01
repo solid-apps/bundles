@@ -234,6 +234,11 @@
       "app:description": "A faithful recreation of Tim Berners-Lee's 1990 WorldWideWeb browser (NeXT chrome, real WWW fonts) — browse AND edit your pod, the read-write web reborn"
     },
     {
+      "app:spec": "webprompts",
+      "app:label": "WebPrompts",
+      "app:description": "A forkable AI prompt → media → video canvas on your pod — load a webprompts JSON-LD and see the node graph (prompts, clips, stitch, score, export) wired by provenance. Aligns with OTIO-lite"
+    },
+    {
       "app:spec": "yap",
       "app:label": "yap",
       "app:description": "Minimal chat — pod rooms (meeting:LongChat as JSON-LD) plus live nostr rooms across your own devices via a relay. Codename for the chat suite"
