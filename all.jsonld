@@ -169,6 +169,11 @@
       "app:description": "Markdown notes on your pod — one resource per note, autosaved. schema:TextDocument, interoperates with hub"
     },
     {
+      "app:spec": "journal",
+      "app:label": "Journal",
+      "app:description": "Micro-journal for your pod — dated entries (title, body, mood, tags) as JSON-LD in a private /private/journal/ container, shown in a day-by-day timeline. xlogin + password sign-in"
+    },
+    {
       "app:spec": "mark",
       "app:label": "Mark",
       "app:description": "Rate any URI (web, localhost, or a pod resource) with stars + a comment. Phase 1 of marking; schema:Review on your pod"
