@@ -244,6 +244,11 @@
       "app:description": "A forkable AI prompt → media → video canvas on your pod — load a webprompts JSON-LD and see the node graph (prompts, clips, stitch, score, export) wired by provenance. Aligns with OTIO-lite"
     },
     {
+      "app:spec": "markmap",
+      "app:label": "Markmap",
+      "app:description": "Mindmaps from markdown on your pod — JSON-LD (or any raw .md URL, e.g. a pages doc) in, interactive pan/zoom/collapse map out"
+    },
+    {
       "app:spec": "yap",
       "app:label": "yap",
       "app:description": "Minimal chat — pod rooms (meeting:LongChat as JSON-LD) plus live nostr rooms across your own devices via a relay. Codename for the chat suite"
